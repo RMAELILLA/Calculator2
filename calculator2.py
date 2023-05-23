@@ -3,7 +3,7 @@ from user_display import UserDisplay
 from calculator_add import CalculatorAdd
 
 calculator_operator2 = UserDisplay()
-calculator_addition = CalculatorAdd
+calculator_addition = CalculatorAdd()
 
 # evaluate the chosen math operations
 math_operator = calculator_operator2.math_operator()
