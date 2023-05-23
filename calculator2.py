@@ -6,6 +6,7 @@ calculator_operator2 = UserDisplay()
 calculator_addition = CalculatorAdd()
 
 math_operator = calculator_operator2.math_operator()
+math_operator = math_operator.lower()
 first_number = calculator_operator2.user_number()
 second_number = calculator_operator2.user_number()
 
