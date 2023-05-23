@@ -11,7 +11,8 @@ second_number = calculator_operator2.user_number()
 
 # if input is "Addition"
 if math_operator == "addition":
-    calculator_addition.cal_add(first_number, second_number)
+    addition = calculator_addition.cal_add(first_number, second_number)
+    calculator_operator2.display_addition(addition)
 # if input is "Subtraction"
 
 # if input is "Multiplication"
