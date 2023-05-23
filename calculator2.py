@@ -1,5 +1,6 @@
 # redo calculator with oop
-from UserDisplay import UserDisplay
+from user_display import UserDisplay
+from calculator_add import CalculatorAdd
 
 # ask user to choose math operations between "Addition", "Subtraction", "Multiplication", or "Division"
 calculator_operator2 = UserDisplay()
