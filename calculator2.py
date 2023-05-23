@@ -5,7 +5,6 @@ from calculator_add import CalculatorAdd
 calculator_operator2 = UserDisplay()
 calculator_addition = CalculatorAdd()
 
-# evaluate the chosen math operations
 math_operator = calculator_operator2.math_operator()
 first_number = calculator_operator2.user_number()
 second_number = calculator_operator2.user_number()
