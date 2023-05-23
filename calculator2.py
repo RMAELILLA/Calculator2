@@ -7,11 +7,12 @@ calculator_addition = CalculatorAdd()
 
 # evaluate the chosen math operations
 math_operator = calculator_operator2.math_operator()
+first_number = calculator_operator2.user_number()
+second_number = calculator_operator2.user_number()
 
 # if input is "Addition"
-if math_operator.lower == "addition":
-    first_number = calculator_operator2.user_number
-    second_number = calculator_operator2.user_number
+if math_operator == "addition":
+    calculator_addition.cal_add(first_number, second_number)
 # if input is "Subtraction"
 
 # if input is "Multiplication"
