@@ -24,3 +24,5 @@ if math_operator == "addition":
     # if yes
     # if no
         # display appreciation
+else:
+    print("error occur")
