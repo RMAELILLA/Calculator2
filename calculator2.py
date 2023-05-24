@@ -2,8 +2,10 @@
 from user_display import UserDisplay
 from calculator_operator import CalculatorOperator
 
-user_operator = UserDisplay()
-calculator_operator = CalculatorOperator()
+class Calculator:
+    def __init__(self):
+        self.user_display = UserDisplay()
+        self.calculator_operator = CalculatorOperator()
 
 math_operator = user_operator.math_operator()
 math_operator = math_operator.lower()
