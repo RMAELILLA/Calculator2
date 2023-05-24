@@ -24,6 +24,8 @@ class Calculator2:
         elif math_operator == "division":
             division = self.calculator_operator.cal_divide(first_number, second_number)
             self.user_display.display_division(division)
+        else:
+            print("I don't understant your input, please choose one only in the four math operators.")
 
         self.math_operator2()
 
