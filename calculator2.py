@@ -2,19 +2,19 @@
 from user_display import UserDisplay
 from calculator_operator import CalculatorOperator
 
-class Calculator:
+class Calculator2:
     def __init__(self):
         self.user_display = UserDisplay()
         self.calculator_operator = CalculatorOperator()
+    def run(self):
+        math_operator = self.user_operator.math_operator()
+        math_operator = math_operator.lower()
+        first_number = self.user_operator.user_number()
+        second_number = self.user_operator.user_number()
 
-math_operator = user_operator.math_operator()
-math_operator = math_operator.lower()
-first_number = user_operator.user_number()
-second_number = user_operator.user_number()
-
-if math_operator == "addition":
-    addition = calculator_operator.cal_add(first_number, second_number)
-    user_operator.display_addition(addition)
+        if math_operator == "addition":
+            addition = self.calculator_operator.cal_add(first_number, second_number)
+            self.user_operator.display_addition(addition)
 # if input is "Subtraction"
 
 # if input is "Multiplication"
@@ -26,5 +26,8 @@ if math_operator == "addition":
     # if yes
     # if no
         # display appreciation
-else:
-    print("error occur")
+math_calculator = Calculator2()
+
+
+# else:
+#    print("error occur")
