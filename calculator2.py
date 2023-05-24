@@ -15,21 +15,24 @@ class Calculator2:
         if math_operator == "addition":
             addition = self.calculator_operator.cal_add(first_number, second_number)
             self.user_display.display_addition(addition)
-        if math_operator == "subtraction":
+        elif math_operator == "subtraction":
             subtraction = self.calculator_operator.cal_subtract(first_number, second_number)
             self.user_display.display_subtraction(subtraction)
-        if math_operator == "multiplication":
+        elif math_operator == "multiplication":
             multiplication = self.calculator_operator.cal_multiply(first_number, second_number)
             self.user_display.display_multiplication(multiplication)
-        if math_operator == "division":
+        elif math_operator == "division":
             division = self.calculator_operator.cal_divide(first_number, second_number)
             self.user_display.display_division(division)
 
+        self.math_operator2()
+
     def math_operator2(self):
         math_calculator2 = self.user_display.math_operator2()
-        if math_calculator2.lower == "y":
-            self.run
-        elif math_calculator2.lower == "n":
+
+        if math_calculator2.lower() == "y":
+            self.run()
+        elif math_calculator2.lower() == "n":
             print("Thank you for using this program. Have a Good day!")
         else:
             print("Please choose 'y' only if yes or 'n' only if no")
