@@ -7,14 +7,14 @@ class Calculator2:
         self.user_display = UserDisplay()
         self.calculator_operator = CalculatorOperator()
     def run(self):
-        math_operator = self.user_operator.math_operator()
+        math_operator = self.user_display.math_operator()
         math_operator = math_operator.lower()
-        first_number = self.user_operator.user_number()
-        second_number = self.user_operator.user_number()
+        first_number = self.user_display.user_number()
+        second_number = self.user_display.user_number()
 
         if math_operator == "addition":
             addition = self.calculator_operator.cal_add(first_number, second_number)
-            self.user_operator.display_addition(addition)
+            self.user_display.display_addition(addition)
 # if input is "Subtraction"
 
 # if input is "Multiplication"
