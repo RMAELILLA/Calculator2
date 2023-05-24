@@ -1,18 +1,18 @@
 # redo calculator with oop
 from user_display import UserDisplay
-from calculator_add import CalculatorAdd
+from calculator_operator import CalculatorOperator
 
-calculator_operator2 = UserDisplay()
-calculator_addition = CalculatorAdd()
+user_operator = UserDisplay()
+calculator_operator = CalculatorOperator()
 
-math_operator = calculator_operator2.math_operator()
+math_operator = user_operator.math_operator()
 math_operator = math_operator.lower()
-first_number = calculator_operator2.user_number()
-second_number = calculator_operator2.user_number()
+first_number = user_operator.user_number()
+second_number = user_operator.user_number()
 
 if math_operator == "addition":
-    addition = calculator_addition.cal_add(first_number, second_number)
-    calculator_operator2.display_addition(addition)
+    addition = calculator_operator.cal_add(first_number, second_number)
+    user_operator.display_addition(addition)
 # if input is "Subtraction"
 
 # if input is "Multiplication"
