@@ -21,7 +21,6 @@ class Calculator2:
         if math_operator == "multiplication":
             multiplication = self.calculator_operator.cal_multiply(first_number, second_number)
             self.user_display.display_multiplication(multiplication)
-
         # if input is "Division"
 
 # ----------------------------------------------

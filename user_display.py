@@ -10,3 +10,5 @@ class UserDisplay:
         print("The sum is: " + str(addition))
     def display_subtraction(self, subtraction):
         print("The difference is: ", subtraction)
+    def display_multiplication(self, multiplication):
+        print("The product is: ", multiplication)
