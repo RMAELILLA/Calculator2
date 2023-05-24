@@ -8,3 +8,5 @@ class UserDisplay:
         return first_number
     def display_addition(self, addition):
         print("The sum is: " + str(addition))
+    def display_subtraction(self, subtraction):
+        print("The difference is: ", subtraction)
