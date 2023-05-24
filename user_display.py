@@ -14,3 +14,5 @@ class UserDisplay:
         print("The product is: ", multiplication)
     def display_division(self, division):
         print("The quotient is: ", division)
+    def math_operator2(self):
+        input("Do you want to calculate again? y/n: ")
