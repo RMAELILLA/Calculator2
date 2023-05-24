@@ -26,8 +26,9 @@ class Calculator2:
     # if yes
     # if no
         # display appreciation
-math_calculator = Calculator2()
 
+math_calculator = Calculator2()
+math_calculator.run()
 
 # else:
 #    print("error occur")
