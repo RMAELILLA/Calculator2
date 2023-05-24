@@ -24,6 +24,7 @@ class Calculator2:
         if math_operator == "division":
             division = self.calculator_operator.cal_divide(first_number, second_number)
             self.user_display.display_division(division)
+
     def math_operator2(self):
         math_calculator2 = self.user_display.math_operator2()
         if math_calculator2.lower == "y":
@@ -33,14 +34,5 @@ class Calculator2:
         else:
             print("Please choose 'y' only if yes or 'n' only if no")
 
-# ----------------------------------------------
-# ask user if wants to input again
-    # if yes
-    # if no
-        # display appreciation
-
 math_calculator = Calculator2()
 math_calculator.run()
-
-# else:
-#    print("error occur")
