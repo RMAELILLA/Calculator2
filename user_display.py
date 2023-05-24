@@ -12,3 +12,5 @@ class UserDisplay:
         print("The difference is: ", subtraction)
     def display_multiplication(self, multiplication):
         print("The product is: ", multiplication)
+    def display_division(self, division):
+        print("The quotient is: ", division)
