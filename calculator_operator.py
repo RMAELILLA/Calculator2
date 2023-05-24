@@ -4,5 +4,5 @@ class CalculatorOperator:
         addition = first_number + second_number
         return addition
     def cal_subtract(self, first_number, second_number):
-        subtraction = first_number + second_number
+        subtraction = first_number - second_number
         return subtraction

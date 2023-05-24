@@ -18,8 +18,7 @@ class Calculator2:
         if math_operator == "subtraction":
             subtraction = self.calculator_operator.cal_subtract(first_number, second_number)
             self.user_display.display_subtraction(subtraction)
-
-        # if input is "Multiplication"
+        
 
         # if input is "Division"
 
